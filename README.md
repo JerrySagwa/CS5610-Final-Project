@@ -3,5 +3,6 @@
 to run frontend
 ```shell
 $ cd frontend
+$ npm i
 $ npm run dev
 ```
