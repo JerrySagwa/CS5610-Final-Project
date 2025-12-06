@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
-from app import db
-from app.models import Kit, Distributor, ComponentUsage
-from app.models import Phone, SimCard, RightSensor, LeftSensor, Headphone, Box
+from medrhythms.app import db
+from medrhythms.app.models import Kit, Distributor, ComponentUsage
+from medrhythms.app.models import Phone, SimCard, RightSensor, LeftSensor, Headphone, Box
 import json
 from datetime import datetime
 from . import api_bp
